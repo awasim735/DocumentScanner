@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C69900DD237D303800AA8268 /* Scan_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = C69900DB237D303800AA8268 /* Scan_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69900DD237D303800AA8268 /* DocumentScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = C69900DB237D303800AA8268 /* DocumentScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6990158237D310200AA8268 /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C699014C237D310200AA8268 /* flash@2x.png */; };
 		C6990159237D310200AA8268 /* flashUnavailable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C699014D237D310200AA8268 /* flashUnavailable@2x.png */; };
 		C699015A237D310200AA8268 /* enhance.png in Resources */ = {isa = PBXBuildFile; fileRef = C699014E237D310200AA8268 /* enhance.png */; };
@@ -58,7 +58,7 @@
 
 /* Begin PBXFileReference section */
 		C69900D8237D303700AA8268 /* DocumentScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DocumentScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C69900DB237D303800AA8268 /* Scan_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scan_Framework.h; sourceTree = "<group>"; };
+		C69900DB237D303800AA8268 /* DocumentScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentScanner.h; sourceTree = "<group>"; };
 		C69900DC237D303800AA8268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C699014C237D310200AA8268 /* flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash@2x.png"; sourceTree = "<group>"; };
 		C699014D237D310200AA8268 /* flashUnavailable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashUnavailable@2x.png"; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 				C6E2A1C2237D5A3200A706B4 /* Scan */,
 				C699018F237D320600AA8268 /* ImageScannerController.swift */,
 				C69900E3237D306000AA8268 /* Assests */,
-				C69900DB237D303800AA8268 /* Scan_Framework.h */,
+				C69900DB237D303800AA8268 /* DocumentScanner.h */,
 				C69900DC237D303800AA8268 /* Info.plist */,
 			);
 			path = DocumentScanner;
@@ -261,7 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69900DD237D303800AA8268 /* Scan_Framework.h in Headers */,
+				C69900DD237D303800AA8268 /* DocumentScanner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
